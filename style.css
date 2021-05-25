@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,200&display=swap');
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+}
+header{
+  background: #0AA0F1;
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: white;
+  
+}
+.searchImg{
+  height: 2.5rem;
+ 
+}
+.landPage{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainHead{
+  font-family: 'Sonsie One', cursive;
+}
+#searchBox{
+  font-size: 1rem;
+  padding:0;
+  background:  #0A82E4;
+  position: sticky;
+  top:3rem;
+  height: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transition: 0.5s ease-in-out;
+}
+.numInp{
+  margin:5px ;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+}
+#searchBox .numInp input{
+  width: 80%;
+  height: 100%;
+  color:white;
+  outline: none;
+  border: none;
+  border-bottom:2px solid blue;
+  background: transparent;
+}
+#searchBox .numInp input::placeholder{
+  color:white;
+  opacity: 0.5;
+  font-size: 1rem;
+}
+.searchIcon{
+  width: 3rem;
+  height: 3rem;
+}
+#mainProblem{
+  padding: 7px;
+  background: #0A82E452;
+  margin-top: 3rem;
+  min-height: calc(100vh - 10.5rem);
+}
+#solution{
+  display:none;
+  background: #0A1CE366;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: 15px;
+  transition: 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+#solution:hover{
+  background: #0A1CE3B3;
+  
+}
+#solLink{
+  text-decoration: none;
+  color:white;
+}
+footer{
+  background: #2A2A30CF;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  color:white;
+  pointer-events: none;
+  font-family: roboto;
+  font-family: 'KoHo', sans-serif;
+  height: 6rem;
+}
+.small{
+  font-size: 13px;
+}
+.err{
+  background: #C70E248F;
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'KoHo', sans-serif;
+  
+}
+.info{
+  font-family: 'KoHo', sans-serif;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h2>Smash Problems</h2>
+    <div id="searchIcon"><img src="search2.png" alt="Search" class="searchImg"></div>
+  </header>
+  <form id="searchBox">
+    <div class="numInp">
+      <input type="number" id="num" class="inp" name="num" placeholder="Search problem by serial number" min="1" max="300">
+    <img id="numSearch" class="searchIcon" src="search3.png" alt="" />
+    </div>
+    
+     <div class="numInp">
+      <input type="text" id="str" class="inp" name="txt" placeholder="Search problem by text (disabled for now)" disabled>
+    <img id="strSearch" class="searchIcon" src="search3.png" alt="" />
+    </div>
+    
+  </form>
+  
+  <div id="mainProblem">
+    <div class="landPage">
+      <h1 class="mainHead" align="center">Smash Problems</h1>
+      <p class="info" align="center">
+        Click the search icon at the top right corner to search a problem. <br /><br />
+        Search bytext is disabled for now... ( it will be added soon )
+      </p>
+    </div>
+  </div>
+
+    <a href="https://raw.githubusercontent.com/vineetjohn/daily-coding-problem/master/solutions/problem_001.py" id="solLink" >  <div id="solution">Solution (python) <br />
+     
+    </div>
+   
+    </a>
+  
+  
+  <footer class="footer">
+    <p>Developed by Prasant 💗</p>
+    <p class="small" align="center">problems and solutions are taken from dailycodingproblem.com</p>
+  </footer>
+  
+     <script src="problem.js"></script>
+  <script src="main.js"></script>
+   
+
+</body>
+</html>
