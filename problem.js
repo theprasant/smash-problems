@@ -1,7 +1,17 @@
 let problem = `
-# Daily Coding Problem
+ # Smash Problems 
 
-Solutions to problems sent by dailycodingproblem.com
+   Details 
+
+   --------
+
+  Creator : Prasant
+
+  Languages used : HTML, CSS, javascript
+
+  frameworks used: none
+
+  latest version : V1.1.1
 
 ---
 
