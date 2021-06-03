@@ -328,7 +328,51 @@ num.value = '';
 
   return;
 
-}
+}else if (userText.match(/problem(?!s)/ig)) {
+
+      mainProblem.innerHTML = ` <p class='err' align='center'>Please don't search for Problem... All are problems here... Don't add more problems in life Haha ! <br>
+
+      Actually the "problem" word is in every problem, so it may hang your phone for few seconds... It will show results though...
+
+      
+
+      </p>
+
+      
+
+        <div class="landPage">
+
+      <div class="heads">
+
+              <h1 class="mainHead" align="center">Smash Problems</h1>
+
+            <p class="subhead" align="center">smash at a glance</p>
+
+           </div>
+
+      <p class="info" align="center">
+
+        Click the search icon at the top right corner to search a problem.
+
+      </p>
+
+    </div>`;
+
+      num.value = '';
+
+      str.value = '';
+
+      searchBox.style.height = '0px';
+
+      // console.log(searchBox.style.height);
+
+      searchBox.style.padding = '0px';
+
+      count++;
+
+      return;
+
+    }
 
 //regEx and for loop to add problem on match
 
