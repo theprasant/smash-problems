@@ -13,6 +13,8 @@ let problem = `
 
   latest version : V1.1.1
 
+Problems and Solutions are taken from dailycodingproblem.com
+
 ---
 
 #### Problem > 1
